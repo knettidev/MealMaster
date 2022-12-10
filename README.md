@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# MealMaster
+MealMaster is a search engine for recipes that allows users to easily find and save their favorite dishes. With a user-friendly interface and powerful search functionality, MealMaster makes it easy for users to discover new recipes and plan their meals.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech stack
+MealMaster is built using the following technologies:
 
-## Available Scripts
+- Front-end: React.js used for building the user interface.
+- Back-end: Node.js used for implementing the server-side logic.
+- Database: MongoDB used for storing the recipe data.
+- ElasticSearch: For advanced quering of the data.
 
-In the project directory, you can run:
+# Goals
+The goal of MealMaster is to provide a user-friendly and comprehensive search engine for recipes. Some key features include:
 
-### `npm start`
+- A powerful search engine that allows users to search for recipes by keyword, ingredient, cuisine type, and more.
+- The ability to filter search results by various parameters, such as cooking time, dietary restrictions, and more
+- A user system that allows users to save their favorite recipes, create their own recipes, and rate and review recipes created by others
+- A responsive design that makes the search engine easy to use on a variety of devices, including smartphones and tablets
+- 
+## Personal goals
+As a junior developer, my personal goals for this project include:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Gaining experience with modern front-end and back-end technologies, including React.js, Node.js, and MongoDB
+- Learning how to implement advanced search functionality using Elasticsearch
+- Creating a polished and user-friendly web application that showcases my skills as a developer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Setup
 
-### `npm test`
+Clone the repository and navigate to the directory:
+```
+git clone https://github.com/KazuoCode/MealMaster.git
+cd mealmaster
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the dependencies:
+```
+npm install
+```
+Set up the database:
+```
+TODO
+```
 
-### `npm run build`
+Set up Elasticsearch:
+```
+TODO
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the project:
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# License
+This project is licensed under a 2-clause BSD license.
